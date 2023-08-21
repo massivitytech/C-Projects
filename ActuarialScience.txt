@@ -1,0 +1,7 @@
+Algebra I  - 15,
+Calculus I - 21,
+Economic Theory IA Microeconomics - 18,
+Economic Theory IB Macroeconomics - 18,
+Business Accounting I - 24,
+Mathematical Statistics I - 24,
+Actuarial Science I - 24,

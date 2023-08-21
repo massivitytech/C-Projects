@@ -1,0 +1,5 @@
+Physics I - 36,
+Algebra - 21,
+Calculus - 21,
+Chemistry - 36,
+Psychology - 36,

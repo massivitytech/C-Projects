@@ -1,0 +1,5 @@
+Geology - 36,
+Chemistry  -  36,
+Algebra - 15,
+Calculus - 21,
+Geography/Physics/Life science - 36,

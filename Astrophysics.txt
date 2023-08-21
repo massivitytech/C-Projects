@@ -1,0 +1,9 @@
+Physics I  - 36,
+Calculus - 21,
+Algebra - 15,
+Mathematical Methods and Modelling - 12, 
+Mechanics - 12,
+Scientific Computing - 12,
+Introduction to Astronomy I - 18,
+Modern Astrophysics I - 18,
+
