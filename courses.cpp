@@ -1,6 +1,4 @@
 #include "courses.h"
-#include <stdexcept>
-#include <fstream>
 
 
 Courses::Courses(string one) {
@@ -52,4 +50,39 @@ void Courses:: PrintModules()
             modula = "";
           }
     }
+}
+
+double Credithours::weight(double credits) // weighs the credits
+{
+    return credits/totalcredits;
+}
+
+void Courses::Credits(char symbol)  //Adds modules to the vector for us
+{
+    string one = Modules(major);
+    string two = "";
+    for (char m : one) {
+        if (m != ',') {
+            two += m;
+        }else
+            Mod.push_back(two);
+            two = "";
+    }
+}
+
+double Courses::GetCredits(int index){ // gets the credits for us
+    string two = "";
+    for(char m : Mod[index]){
+        if(m != '-'){
+            if(!isspace(m))
+                two += m;
+        }else
+             two = ""; 
+    }
+    double Credits = stod(two);
+}
+pair<double,char> Courses::Fill(int index , char symbol){ //fills our vector with credits and symbol
+  Alls.push_back({GetCredits(index),symbol});
+  return {GetCredits(index),symbol};
+
 }
