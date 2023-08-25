@@ -2,6 +2,7 @@
 
 class Credithours{
     public:
+//Soon to be deleted
           Credithours();
           string course;
           vector<pair<double,char>>Alls;
