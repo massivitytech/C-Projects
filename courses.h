@@ -1,7 +1,9 @@
-#include "cgpa.cpp"
 #include <vector>
 #include <stdexcept>
 #include <fstream>
+#include <algorithm>
+#include <utility>
+#include <cctype>
 #include <iostream>
 #include <sstream>
 
@@ -26,9 +28,14 @@ class Courses : public Course{
     string course;
     vector<pair<double,char>>Alls;
     vector<string>Mod;
+    vector<string>Opt;
     double totalcredits;
+    void extractNumber(string m, char symbol);
+    void InsertNumber(char symbol);
+    string removeSpaces(string &input);
     double weight(double credits);
-    double GetCredits(int index);
-    void Credits(char symbol);
+   // double GetCredits(int index);
+    void InsertModules();
+    void Numbers(string filename); //Add to vector opt a line as it is
     pair<double,char>Fill(int index , char symbol);
 };

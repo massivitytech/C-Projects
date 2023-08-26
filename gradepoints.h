@@ -1,10 +1,4 @@
-#include <iostream>
-#include <cmath>
-#include <vector>
-#include <algorithm>
-#include <utility>
-#include <cctype>
-#include <string>
+#include "courses.cpp"
 
 using namespace std;
 

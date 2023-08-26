@@ -1,9 +1,5 @@
 #include "cgpa.h"
 
-GCPA::GCPA()
-{
-  All = b.Alls;
-}
 double GCPA::GPA()
 {
   double sum = 0.0;
